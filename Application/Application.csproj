@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Models\Commands\" />
+    <Folder Include="Features\Tickets\Commands\Delete\" />
+    <Folder Include="Features\Tickets\Commands\Update\" />
+    <Folder Include="Features\Tickets\Constants\" />
+    <Folder Include="Features\Tickets\Rules\" />
+    <Folder Include="Features\Tickets\Queries\" />
+    <Folder Include="Features\Tickets\Profiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+
 </Project>
